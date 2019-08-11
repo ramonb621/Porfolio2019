@@ -1,6 +1,6 @@
 body{
     height: 100%;
-    margin: 0;
+    margin: 10px;
     flex-grow: 1;
 }
 .me{
@@ -22,4 +22,28 @@ body{
     flex-shrink: 0;
     /* z-index: 3; */
 }
-
+.container, .cont2, .cont3{
+    width:500px;
+}
+.projects{
+    height: 150px;
+    width: 150px;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+#project1, #project2, #project3, #project4{
+    text-align: center;
+}
+@media screen and (max-width:375px){
+    .container, .cont2, .cont3{
+        width:365px;
+    
+    }    
+    .projects{
+        width: 150px;
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+}
