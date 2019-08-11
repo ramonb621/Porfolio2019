@@ -1,0 +1,25 @@
+body{
+    height: 100%;
+    margin: 0;
+    flex-grow: 1;
+}
+.me{
+    float: left;
+    width: 135px;
+    height: 190px;
+    margin: 5px 10px 5px 10px;
+}
+.footer{
+    text-align: center;
+    width:100%;
+    padding: 0px;
+    /* border-top: 2px solid; */
+    position:fixed;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right:0;
+    flex-shrink: 0;
+    /* z-index: 3; */
+}
+
