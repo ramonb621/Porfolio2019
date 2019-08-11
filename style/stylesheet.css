@@ -1,7 +1,15 @@
+/* font-family: 'Long Cang', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Special Elite', cursive; */
 body{
     height: 100%;
     margin: 10px;
     flex-grow: 1;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+h1{
+    /* font-family: ''; */
 }
 .content{
     width: 100%;
@@ -16,6 +24,9 @@ body{
     height: 190px;
     margin: 5px 10px 5px 10px;
 }
+.name, .comment, #contact-me{
+    font-family: 'Special Elite', cursive;
+}
 .container, .cont2, .cont3{
     width:100%;
 }
@@ -28,6 +39,8 @@ body{
     border-radius: 15px;
 }
 .footer{
+    font-family: 'Long Cang', cursive;
+    font-size: 18pt;
     text-align: center;
     width:100%;
     padding: 0px;
