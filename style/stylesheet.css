@@ -3,11 +3,29 @@ body{
     margin: 10px;
     flex-grow: 1;
 }
+.content{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: block;
+    text-align: center;
+}
 .me{
     float: left;
     width: 135px;
     height: 190px;
     margin: 5px 10px 5px 10px;
+}
+.container, .cont2, .cont3{
+    width:100%;
+}
+.projects{
+    height: 150px;
+    width: 150px;
+    display: block;
+    position: relative;
+    margin: 25px auto;
+    border-radius: 15px;
 }
 .footer{
     text-align: center;
@@ -20,30 +38,21 @@ body{
     left: 0;
     right:0;
     flex-shrink: 0;
-    /* z-index: 3; */
-}
-.container, .cont2, .cont3{
-    width:500px;
-}
-.projects{
-    height: 150px;
-    width: 150px;
-    display: block;
-    position: relative;
-    margin: auto;
+    z-index: 3;
 }
 #project1, #project2, #project3, #project4{
     text-align: center;
 }
 @media screen and (max-width:375px){
     .container, .cont2, .cont3{
-        width:365px;
-    
+        width:auto;
+        margin: auto;
     }    
     .projects{
+        height: 150px;
         width: 150px;
         display: block;
         position: relative;
         margin: auto;
-    }
+        }
 }
