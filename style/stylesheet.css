@@ -36,7 +36,7 @@ a:hover{
     height: 190px;
     margin: 5px 10px 5px 10px;
 }
-.name, .comment, #contact-me{
+h1, h2, .name, .comment, #contact-me{
     font-family: 'Special Elite', cursive;
 }
 .container, .cont2, .cont3{
@@ -78,8 +78,48 @@ a:hover{
 #submit:hover{
     color:#79BF2E;
 }
+@media screen and (min-width:960px){
+    h1{
+        font-size: 32pt;
+    }
+    h2{
+        font-size: 26pt;
+    }    
+    .projects{
+        height: 225px;
+        width: 225px;
+        display: block;
+        position: relative;
+        margin: 25px auto;
+        border-radius: 15px;
+    }
+    #project1, #project2, #project3, #project4, .menu{
+        font-size: 16pt;
+    }    
+    #project1{
+        float: left;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    #project2{
+        float: right;
+        margin-right: 250px;
+        margin-top: 50px;
+    }
+    #project3{
+        float: left;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    #project4{
+        float: right;
+        margin-right: 250px;
+        margin-top: 50px;
+    }
+}
 @media screen and (max-width:375px){
     .container, .cont2, .cont3{
+        clear: left, right;
         width:auto;
         margin: auto;
     }    
@@ -88,6 +128,7 @@ a:hover{
         width: 150px;
         display: block;
         position: relative;
-        margin: auto;
-        }
+        margin: 25px auto;
+        border-radius: 15px;
+    }
 }
