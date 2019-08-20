@@ -76,7 +76,7 @@ h1, h2, .name, .comment, #contact-me{
     text-align: justify;
     font-family: 'Long Cang', cursive;
 }
-#project1, #project2, #project3, #project4{
+#project1, #project2, #project3, #project4, #project5{
     width: 400px;
     height: 400px;
     text-align: center;
@@ -106,7 +106,7 @@ h1, h2, .name, .comment, #contact-me{
         margin: 25px auto;
         border-radius: 15px;
     }
-    #project1, #project2, #project3, #project4, .menu{
+    #project1, #project2, #project3, #project4, #project5, .menu{
         font-size: 16pt;
     }    
     #project1{
@@ -129,6 +129,12 @@ h1, h2, .name, .comment, #contact-me{
         margin-right: 250px;
         margin-top: 50px;
     }
+    #project5{
+        float: left;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+
 }
 @media screen and (max-width:375px){
     .container, .cont2, .cont3{
