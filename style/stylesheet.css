@@ -108,41 +108,25 @@ h1, h2, .name, .comment, #contact-me{
         width: 225px;
         display: block;
         position: relative;
-        margin: 25px auto;
+        left:0;
+        right: 0;
+        margin: 10px auto;
         border-radius: 15px;
     }
-    #project1, #project2, #project3, #project4, #project5, .menu{
+    /* #project1, #project2, #project3, #project4, #project5, .menu{
         font-size: 16pt;
-    }    
-    #project1{
+    }     */
+    #project1, #project3, #project5{
         float: left;
         margin-left: 250px;
         margin-top: 50px;
+        font-size: 16pt;
     }
-    #project2{
+    #project2, #project4, #project6{
         float: right;
         margin-right: 250px;
         margin-top: 50px;
-    }
-    #project3{
-        float: left;
-        margin-left: 250px;
-        margin-top: 50px;
-    }
-    #project4{
-        float: right;
-        margin-right: 250px;
-        margin-top: 50px;
-    }
-    #project5{
-        float: left;
-        margin-left: 250px;
-        margin-top: 50px;
-    }
-    #project6{
-        float: right;
-        margin-right: 250px;
-        margin-top: 50px;
+        font-size: 16pt;
     }
 
 }
@@ -157,7 +141,7 @@ h1, h2, .name, .comment, #contact-me{
         width: 150px;
         display: block;
         position: relative;
-        margin: 25px auto;
+        margin: 15px auto;
         border-radius: 15px;
     }
 
