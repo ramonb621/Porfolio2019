@@ -73,7 +73,7 @@ h1, h2, .name, .comment, #contact-me{
     width: 220px;
     height: 70px;
     position: relative;
-    margin-left: 95px;
+    margin: auto;
     /* word-wrap: break-word; */
     font-size: 16pt;
     text-align: center;
@@ -108,8 +108,7 @@ h1, h2, .name, .comment, #contact-me{
         width: 225px;
         display: block;
         position: relative;
-        left:0;
-        right: 0;
+
         margin: 10px auto;
         border-radius: 15px;
     }
