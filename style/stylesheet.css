@@ -129,7 +129,7 @@ h1, h2, .name, .comment, #contact-me{
     }
 
 }
-@media screen and (max-width:375px){
+@media screen and (min-width:375px){
     .container, .cont2, .cont3{
         clear: left, right;
         width:auto;
