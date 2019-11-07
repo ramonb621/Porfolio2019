@@ -35,6 +35,10 @@ a:hover{
     width: 135px;
     height: 190px;
     margin: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+#me{
+    text-indent: 2.0em;
 }
 h1, h2, .name, .comment, #contact-me{
     font-family: 'Special Elite', cursive;
@@ -80,10 +84,10 @@ h1, h2, .name, .comment, #contact-me{
     font-family: 'Long Cang', cursive;
 }
 #project1, #project2, #project3, #project4, #project5, #project6{
-    width: 400px;
-    height: 400px;
+    width: auto;
+    height: auto;
     text-align: center;
-    margin: 40px auto;
+    margin: 40px auto 90px;
 }
 #submit{
     font-family: 'Quicksand', sans-serif;
@@ -111,9 +115,6 @@ h1, h2, .name, .comment, #contact-me{
         margin: 10px auto;
         border-radius: 15px;
     }
-    /* #project1, #project2, #project3, #project4, #project5, .menu{
-        font-size: 16pt;
-    }     */
     #project1, #project3, #project5{
         float: left;
         margin-left: 250px;
@@ -128,7 +129,7 @@ h1, h2, .name, .comment, #contact-me{
     }
 
 }
-@media screen and (max-width:375px){
+@media screen and (min-width:275px){
     .container, .cont2, .cont3{
         clear: left, right;
         width:auto;
@@ -144,10 +145,5 @@ h1, h2, .name, .comment, #contact-me{
         /* margin: 15px auto; */
         border-radius: 15px;
     }
-    #project1, #project2, #project3, #project4, #project5, #project6{
-        width: 400px;
-        height: 350px;
-        text-align: center;
-        margin: 40px auto;
-    }
+
 }
