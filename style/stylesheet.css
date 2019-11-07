@@ -66,7 +66,7 @@ h1, h2, .name, .comment, #contact-me{
     padding: 0px;
     /* border-top: 1px solid; */
     position:fixed;
-    margin: 70px auto 0;
+    margin: auto;
     bottom: 0;
     left: 0;
     right:0;
@@ -89,7 +89,7 @@ h1, h2, .name, .comment, #contact-me{
     text-align: center;
     margin: 40px auto 90px;
 }
-#submit{
+/* #submit{
     font-family: 'Quicksand', sans-serif;
     background-color: black;
     color: whitesmoke;
@@ -98,7 +98,7 @@ h1, h2, .name, .comment, #contact-me{
 }
 #submit:hover{
     color:#79BF2E;
-}
+} */
 @media screen and (min-width:960px){
     h1{
         font-size: 32pt;
@@ -129,7 +129,7 @@ h1, h2, .name, .comment, #contact-me{
     }
 
 }
-@media screen and (min-width:516px){
+@media screen and (max-width:375px){
     .container, .cont2, .cont3{
         clear: left, right;
         width:auto;
@@ -144,6 +144,13 @@ h1, h2, .name, .comment, #contact-me{
         right: 0;
         /* margin: 15px auto; */
         border-radius: 15px;
+    }
+    #project1, #project3, #project5{
+
+        margin-left: 240px;
+    }
+    #project2, #project4, #project6{
+        margin-right: 260px;
     }
 
 }
