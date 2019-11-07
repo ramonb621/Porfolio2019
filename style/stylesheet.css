@@ -108,7 +108,6 @@ h1, h2, .name, .comment, #contact-me{
         width: 225px;
         display: block;
         position: relative;
-
         margin: 10px auto;
         border-radius: 15px;
     }
@@ -129,7 +128,7 @@ h1, h2, .name, .comment, #contact-me{
     }
 
 }
-@media screen and (min-width:375px){
+@media screen and (max-width:375px){
     .container, .cont2, .cont3{
         clear: left, right;
         width:auto;
@@ -140,8 +139,15 @@ h1, h2, .name, .comment, #contact-me{
         width: 150px;
         display: block;
         position: relative;
-        margin: 15px auto;
+        left: 0;
+        right: 0;
+        /* margin: 15px auto; */
         border-radius: 15px;
     }
-
+    #project1, #project2, #project3, #project4, #project5, #project6{
+        width: 400px;
+        height: 350px;
+        text-align: center;
+        margin: 40px auto;
+    }
 }
